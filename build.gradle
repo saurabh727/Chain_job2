@@ -19,7 +19,7 @@ dependencies {
     implementation 'javax.servlet:jstl:1.2'
 }
 
-group = 'com.mkyong'
+group = 'com.saurabh'
 version = '9.2'
 description = 'Nightly'
 sourceCompatibility = '1.6'

@@ -20,8 +20,8 @@ dependencies {
 }
 
 group = 'com.mkyong'
-version = '1.0-SNAPSHOT'
-description = 'spring3 mvc maven'
+version = '9.2'
+description = 'Nightly'
 sourceCompatibility = '1.6'
 
 publishing {

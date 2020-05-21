@@ -48,16 +48,16 @@ group = 'ro.trc.common'
 sourceCompatibility = '1.8'
 apply plugin: 'maven-publish'
 publishing {
-publications {
-maven(MavenPublication) {
-artifact("build/libs/*.jar") {
-extension 'jar'
-}}}
+    publications {
+        maven(MavenPublication) {
+            artifact("build/libs/*.jar") {
+                extension 'jar'
+}}}}
 repositories {
 maven {
-name ‘nexus’
-url “http://35.154.178.162:8081/repository/artifact_upload/"
+name 'nexus'
+url "http://35.154.178.162:8081/repository/artifact_upload/"
 credentials {
 username project.repoUser
 password project.repoPassword
-}}}}
+}}}

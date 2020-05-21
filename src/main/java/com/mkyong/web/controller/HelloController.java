@@ -1,4 +1,4 @@
-package com.mkyong.web.controller;
+/*package com.mkyong.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -29,4 +29,10 @@ public class HelloController {
 
 	}
 
+}*/
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
 }

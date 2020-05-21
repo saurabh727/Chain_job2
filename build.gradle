@@ -24,11 +24,12 @@ username project.repoUser
 password project.repoPassword
 }}}
 
-
+/*
 dependencies {
     implementation 'org.springframework:spring-webmvc:3.2.13.RELEASE'
     implementation 'javax.servlet:jstl:1.2'
 }
+*/
 /*
 group = 'com.saurabh'
 version = '9.2'

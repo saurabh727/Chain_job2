@@ -22,7 +22,7 @@ url "http://35.154.178.162:8081/repository/artifact_upload/"
 credentials {
 username project.repoUser
 password project.repoPassword
-}}}}
+}}}
 
 
 dependencies {
@@ -53,11 +53,3 @@ publishing {
             artifact("build/libs/*.jar") {
                 extension 'jar'
 }}}}
-repositories {
-maven {
-name 'nexus'
-url "http://35.154.178.162:8081/repository/artifact_upload/"
-credentials {
-username project.repoUser
-password project.repoPassword
-}}}

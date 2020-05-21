@@ -6,19 +6,19 @@ plugins {
     id 'java'
     id 'maven-publish'
 }
-
+/*
 repositories {
     mavenLocal()
     maven {
         url = uri('http://repo.maven.apache.org/maven2')
     }
 }
-
+*/
 dependencies {
     implementation 'org.springframework:spring-webmvc:3.2.13.RELEASE'
     implementation 'javax.servlet:jstl:1.2'
 }
-
+/*
 group = 'com.saurabh'
 version = '9.2'
 description = 'Nightly'
@@ -31,3 +31,22 @@ publishing {
         }
     }
 }
+*/
+version = ‘0.0.1’
+group = ‘ro.trc.common’
+sourceCompatibility = ‘1.8’
+apply plugin: ‘maven-publish’
+publishing {
+publications {
+maven(MavenPublication) {
+artifact(“build/libs/*.jar”) {
+extension ‘jar’
+}}}
+repositories {
+maven {
+name ‘nexus’
+url “http://35.154.178.162:8081/repository/artifact_upload/"
+credentials {
+username project.repoUser
+password project.repoPassword
+}}}}

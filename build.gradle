@@ -17,8 +17,8 @@ repositories {
 
 repositories {
 maven {
-name 'nexus'
-url "http://35.154.178.162:8081/repository/artifact_upload/"
+name 'nexus3'
+url "http://35.154.178.162:8081/repository/maven-snapshots/"
 credentials {
 username project.repoUser
 password project.repoPassword

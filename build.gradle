@@ -51,7 +51,7 @@ task createChefTar(type: Tar, dependsOn:['createYamlFiles']) {
 	compression = Compression.GZIP
 }
 */
-
+/*
 artifactory {
     contextUrl = "${artifactory_contextUrl}"
     publish {
@@ -67,7 +67,7 @@ artifactory {
         }
     }
 }
-
+*/
 
 publishing {
     publications {

@@ -33,7 +33,7 @@ tasks.withType(ScalaCompile) {
 */
 task createTAR(type: Tar, dependsOn: jar) {
   print 'here'
-  archiveName = 'chain_job2-' + version + 
+  archiveName = 'chain_job2-' + version
   destinationDir = file('build/dist')
   extension = 'tar.gz'
   compression = Compression.GZIP

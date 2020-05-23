@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.saurabh</groupId>
-	<artifactId>hello_bro</artifactId>
+	<artifactId>chain_job2</artifactId>
 	<packaging>jar</packaging>
 	<version>9.2</version>
-	<name>spring3 mvc maven</name>
+	<name>chain_job2</name>
 
 	<properties>
 		<jdk.version>1.6</jdk.version>
